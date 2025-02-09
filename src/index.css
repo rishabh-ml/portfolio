@@ -1,0 +1,19 @@
+@import "tailwindcss";
+html, body {
+  margin: 0;
+  padding: 0;
+  /* If you want black by default */
+  background-color: #000; 
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
