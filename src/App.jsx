@@ -1,5 +1,6 @@
 import React from 'react';
 import { VscHome, VscAccount, VscTools, VscRepo, VscCalendar, VscMail } from 'react-icons/vsc';
+import { Analytics } from "@vercel/analytics/react"
 import Dock from './components/Dock';
 import Hero from './sections/Hero';
 import About from './sections/About';
@@ -40,6 +41,7 @@ export default function App() {
         // Force it above everything else
         className="!z-50"
       />
+      <Analytics />
     </div>
   );
 }

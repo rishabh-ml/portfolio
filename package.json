@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-spring/web": "^9.7.5",
     "@tailwindcss/vite": "^4.0.5",
+    "@vercel/analytics": "^1.4.1",
     "framer-motion": "^12.4.1",
     "motion": "^12.4.1",
     "ogl": "^1.0.11",
