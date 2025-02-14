@@ -1,8 +1,176 @@
-# React + Vite
+# Rishabh Shukla’s Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my **Personal Portfolio** website—a sleek, single-page application showcasing my skills, projects, timeline, and more. This project uses **React**, **Tailwind CSS**, and **Framer Motion** to deliver a modern, dark-themed design with subtle animations.
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio Preview](https://via.placeholder.com/1000x280/000/fff?text=Portfolio+Screenshot)  
+<sup><sub>*(Replace with actual screenshot of your portfolio.)*</sub></sup>
+
+---
+
+## ✨ Features
+
+- **Interactive Dock Navigation**  
+  A macOS-style dock at the bottom of the screen lets you smoothly navigate between sections.
+
+- **Animated Hero & Split Text**  
+  Eye-catching hero section featuring a custom text-splitting animation for a memorable first impression.
+
+- **About & Technologies Sections**  
+  Includes rotating text animations, a dark-themed design, and animated skill tiles using pixel effects.
+
+- **Project Spotlight Cards**  
+  Radial spotlight hover animations that highlight project cards, each with a “View Now” GitHub link button.
+
+- **Framer Motion Animations**  
+  Sections (About, Technologies, Timeline, etc.) fade/slide in on scroll for a polished user experience.
+
+- **Timeline**  
+  Displays your education and experience milestones in a vertical timeline with subtle entry animations.
+
+- **Contact & Footer**  
+  A built-in contact form and footer section with your details, ensuring users can easily reach out.
+
+<br/>
+
+---
+
+## 📂 Project Structure
+
+```
+├─ src/
+│   ├─ components/
+│   │   ├─ Dock.jsx
+│   │   ├─ SplashCursor.jsx
+│   │   ├─ PixelCard.jsx
+│   │   └─ ...
+│   ├─ sections/
+│   │   ├─ Hero.jsx
+│   │   ├─ About.jsx
+│   │   ├─ TechSection.jsx
+│   │   ├─ Projects.jsx
+│   │   ├─ Timeline.jsx
+│   │   └─ Contact.jsx
+│   ├─ App.jsx
+│   ├─ index.css
+│   └─ main.jsx
+├─ public/
+│   └─ resume.pdf (Optional Resume)
+├─ package.json
+├─ tailwind.config.js
+└─ vite.config.js (or similar config)
+```
+
+- **`components/`**: Reusable UI elements (Dock, PixelCard, etc.)  
+- **`sections/`**: Each major section of the one-page site (Hero, About, etc.)  
+- **`App.jsx`**: Main layout combining all sections and the Dock.  
+- **`index.css`** & **`tailwind.config.js`**: Tailwind CSS configuration and global styles.
+
+<br/>
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the Repo**  
+   ```bash
+   git clone https://github.com/YourUsername/rishabh-portfolio.git
+   cd rishabh-portfolio
+   ```
+
+2. **Install Dependencies**  
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. **Run the Development Server**  
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   Then open [http://localhost:5173/](http://localhost:5173/) (or the CLI-suggested port) to view it in the browser.
+
+4. **Production Build**  
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+   This outputs the production-ready files to `dist/`. You can then deploy it to any static hosting service.
+
+<br/>
+
+---
+
+## ⚙️ Key Technologies
+
+- **React**: A JavaScript library for building interactive user interfaces.  
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.  
+- **Framer Motion**: For smooth, spring-based animations and scroll-triggered reveals.  
+- **React Icons**: Collection of icons, including VSC, Fi, Fa, etc.  
+- **Vite** (or CRA): A fast dev build tool (depending on your chosen config).
+
+<br/>
+
+---
+
+## 🌟 Highlights
+
+### 1. Interactive Dock
+A macOS-inspired dock at the bottom of the screen to quickly jump between **Home**, **About**, **Technologies**, **Projects**, **Timeline**, and **Contact**.
+
+### 2. Hero Section & Cursor Effects
+Custom **SplitText** animation for the hero text, plus a **SplashCursor** effect that tracks the user’s mouse movements across the screen.
+
+### 3. Animated Timeline & Pixel Cards
+- **Timeline**: Showcases education and career milestones with icons.  
+- **PixelCard**: Hover effects that generate shimmering pixel grids in the background.
+
+### 4. “Spotlight” Project Cards
+Hovering over a project triggers a **radial gradient** effect that centers on the cursor, making each project visually “pop.”
+
+### 5. Contact Form & Footer
+Collect messages from potential clients or collaborators, and wrap things up with a minimal, dark-themed footer.
+
+<br/>
+
+---
+
+## 🤝 Contributing
+
+1. [Fork the repository](https://github.com/YourUsername/rishabh-portfolio/fork)  
+2. Create a **feature branch** (`git checkout -b feature/my-feature`)  
+3. Commit your changes (`git commit -m 'Add some feature'`)  
+4. Push to the branch (`git push origin feature/my-feature`)  
+5. Open a **Pull Request**  
+
+Feel free to submit issues or pull requests for improvements!
+
+<br/>
+
+---
+
+## 📧 Contact
+
+- **Email**: rishabh@example.com  
+- **LinkedIn**: [linkedin.com/in/rishabhshukla](https://www.linkedin.com/)  
+- **Twitter**: [@rishabhshukla](https://twitter.com/) (example)
+
+<br/>
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this code as you see fit.
+
+---
+
+<p align="center">
+  <strong>Thank you for exploring my portfolio!</strong><br/>
+  <em>If you find this useful or inspirational, consider giving a ⭐ on GitHub!</em>
+</p>
