@@ -29,6 +29,42 @@ export default function Contact() {
     },
   };
 
+  // Function to handle form submission using Web3 Forms API
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    
+    // Append the access key provided by Web3 Forms
+    formData.append("access_key", "ec3744c4-af5f-4986-92f3-6a6c2f18a5a1");
+
+    // Convert the form data to JSON
+    const data = Object.fromEntries(formData.entries());
+    const json = JSON.stringify(data);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      });
+      const res = await response.json();
+      if (res.success) {
+        alert("Form submitted successfully!");
+        // Optionally reset the form after submission
+        event.target.reset();
+      } else {
+        alert("Error submitting form. Please try again.");
+        console.error("Submission error:", res);
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Error submitting form. Please try again later.");
+    }
+  };
+
   return (
     <>
       <motion.section
@@ -85,10 +121,7 @@ export default function Contact() {
           {/* Right Column - Contact Form */}
           <motion.form
             className="w-full md:w-1/2 bg-neutral-900 rounded-lg p-6 shadow-lg space-y-5"
-            onSubmit={(e) => {
-              e.preventDefault();
-              alert("Form submitted!");
-            }}
+            onSubmit={onSubmit}
             variants={{
               hidden: { opacity: 0, scale: 0.95 },
               visible: {
@@ -113,6 +146,7 @@ export default function Contact() {
               <input
                 type="text"
                 id="name"
+                name="name"
                 className="w-full rounded-md border border-gray-700 bg-black text-white px-3 py-2 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                 placeholder="Enter your name"
                 required
@@ -130,6 +164,7 @@ export default function Contact() {
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="w-full rounded-md border border-gray-700 bg-black text-white px-3 py-2 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                 placeholder="Enter your email"
                 required
@@ -146,6 +181,7 @@ export default function Contact() {
               </label>
               <textarea
                 id="message"
+                name="message"
                 rows="4"
                 className="w-full rounded-md border border-gray-700 bg-black text-white px-3 py-2 focus:outline-none focus:ring-1 focus:ring-indigo-500"
                 placeholder="Enter your message"
