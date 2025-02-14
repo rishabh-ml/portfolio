@@ -69,42 +69,6 @@ Welcome to the repository for my **Personal Portfolio** website—a sleek, singl
 
 <br/>
 
----
-
-## 🚀 Getting Started
-
-1. **Clone the Repo**  
-   ```bash
-   git clone https://github.com/YourUsername/rishabh-portfolio.git
-   cd rishabh-portfolio
-   ```
-
-2. **Install Dependencies**  
-   ```bash
-   npm install
-   # or
-   yarn
-   ```
-
-3. **Run the Development Server**  
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-   Then open [http://localhost:5173/](http://localhost:5173/) (or the CLI-suggested port) to view it in the browser.
-
-4. **Production Build**  
-   ```bash
-   npm run build
-   # or
-   yarn build
-   ```
-   This outputs the production-ready files to `dist/`. You can then deploy it to any static hosting service.
-
-<br/>
-
----
 
 ## ⚙️ Key Technologies
 
@@ -124,7 +88,7 @@ Welcome to the repository for my **Personal Portfolio** website—a sleek, singl
 A macOS-inspired dock at the bottom of the screen to quickly jump between **Home**, **About**, **Technologies**, **Projects**, **Timeline**, and **Contact**.
 
 ### 2. Hero Section & Cursor Effects
-Custom **SplitText** animation for the hero text, plus a **SplashCursor** effect that tracks the user’s mouse movements across the screen.
+Custom **SplitText** animation for the hero text.
 
 ### 3. Animated Timeline & Pixel Cards
 - **Timeline**: Showcases education and career milestones with icons.  
@@ -142,7 +106,7 @@ Collect messages from potential clients or collaborators, and wrap things up wit
 
 ## 🤝 Contributing
 
-1. [Fork the repository](https://github.com/YourUsername/rishabh-portfolio/fork)  
+1. [Fork the repository](https://github.com/rishabh-ml/rishabh-portfolio/fork)  
 2. Create a **feature branch** (`git checkout -b feature/my-feature`)  
 3. Commit your changes (`git commit -m 'Add some feature'`)  
 4. Push to the branch (`git push origin feature/my-feature`)  
@@ -157,18 +121,10 @@ Feel free to submit issues or pull requests for improvements!
 ## 📧 Contact
 
 - **Email**: rishabh@example.com  
-- **LinkedIn**: [linkedin.com/in/rishabhshukla](https://www.linkedin.com/)  
-- **Twitter**: [@rishabhshukla](https://twitter.com/) (example)
+- **LinkedIn**: [linkedin.com/in/rishabhshukla](https://www.linkedin.com/in/rishabh-shukla-439538349/)  
+- **Twitter**: [@rishabhshukla](https://x.com/rishabh_ml_)
 
 <br/>
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this code as you see fit.
-
----
 
 <p align="center">
   <strong>Thank you for exploring my portfolio!</strong><br/>
