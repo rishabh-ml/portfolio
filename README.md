@@ -5,7 +5,7 @@ Welcome to the repository for my **Personal Portfolio** website—a sleek, singl
 <br/>
 
 ![Portfolio Preview](/public/preview.png)  
-<sup><sub>*(Replace with actual screenshot of your portfolio.)*</sub></sup>
+<sup><sub>*(last updated on February 15, 2025)*</sub></sup>
 
 ---
 
