@@ -4,7 +4,7 @@ Welcome to the repository for my **Personal Portfolio** website—a sleek, singl
 
 <br/>
 
-![Portfolio Preview](https://via.placeholder.com/1000x280/000/fff?text=Portfolio+Screenshot)  
+![Portfolio Preview](/public/preview.png)  
 <sup><sub>*(Replace with actual screenshot of your portfolio.)*</sub></sup>
 
 ---
