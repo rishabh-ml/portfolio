@@ -11,33 +11,33 @@ export default function Projects() {
     {
       title: "Professional Website for SRTechnicals",
       description: "Improved client conversions by 30%.",
-      githubLink: "https://github.com/yourusername/srtechnicals-website",
+      githubLink: "https://github.com/rishabh-ml/srtechnicals",
     },
     {
       title: "Task Management System (MERN Stack)",
       description: "A full-fledged task management system for productivity.",
-      githubLink: "https://github.com/yourusername/task-manager-mern",
+      githubLink: "https://github.com/rishabh-ml/karya",
     },
     {
       title: "Weather Wise (Android App)",
       description: "Weather forecast app with API integrations.",
-      githubLink: "https://github.com/yourusername/weather-wise",
+      githubLink: "https://github.com/rishabh-ml/weather-wise",
     },
     {
       title: "Voice Assistant Android App",
       description:
         "AI-powered Voice Assistant using Java, XML & integrated OpenAI API.",
-      githubLink: "https://github.com/yourusername/voice-assistant",
+      githubLink: "https://github.com/rishabh-ml/voice-assistant",
     },
     {
       title: "HealthEase - Doctor Consultation App",
       description: "React Native, Firestore, and React Paper UI-based solution.",
-      githubLink: "https://github.com/yourusername/healthease",
+      githubLink: "https://github.com/rishabh-ml/HealthEase",
     },
     {
       title: "Professional Website for Inccept ai",
       description: "Developed using React, showcasing AI services.",
-      githubLink: "https://github.com/yourusername/inccept-ai-site",
+      githubLink: "https://github.com/rishabh-ml/Inccept-AI",
     },
   ];
 
